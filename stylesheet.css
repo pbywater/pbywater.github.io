@@ -1,0 +1,67 @@
+/*body {
+background-color:rgb(0,0,0);
+background-image:url(http://www.zingerbugimages.com/backgrounds/white_marble_background_seamless.jpg);
+background-position:top left;
+background-repeat:repeat;background-attachment:fixed;
+}*/
+
+@font-face {
+    font-family: oranienbaum;
+    src: url(Oranienbaum.ttf);
+}
+
+body {
+
+	font-family: oranienbaum;
+}
+
+.header {
+	background-image:url(http://www.zingerbugimages.com/backgrounds/white_marble_background_seamless.jpg);
+	width: 98%;
+	height: 250px;
+	margin-left: 1%;
+    margin-top: 1.5%;
+    padding-top: 3.6%;
+}
+
+.mini-header {
+	background-color: #dfb9b4;
+	width: 40%;
+	margin-left: 24%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+h1 {
+    letter-spacing: 2rem;
+    text-align: center;
+    font-size: 150px;
+    margin: 0px;
+    padding-top: 20px;
+    color: white;
+}
+
+body {
+  background: #d7faf6; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #d7faf6 , #dfb9b4); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #d7faf6, #dfb9b4); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #d7faf6, #dfb9b4); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #d7faf6 , #dfb9b4); /* Standard syntax */
+}
+
+
+body {
+  background: #d7faf6; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #d7faf6 , #1c5767); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #d7faf6, #1c5767); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #d7faf6, #1c5767); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #d7faf6 , #1c5767); /* Standard syntax */
+}
+
+/*body{
+	background-color:rgb(0,0,0);
+	background-image:url(http://www.zingerbugimages.com/backgrounds/green_marble.jpg);
+	background-position:top left;
+	background-repeat:repeat;
+	background-attachment:fixed;
+}*/
