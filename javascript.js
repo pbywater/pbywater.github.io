@@ -42,3 +42,7 @@ $(function() {
        audio2.pause();
 
        }
+
+
+   
+  

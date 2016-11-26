@@ -225,6 +225,7 @@ background-image:url(Gifs/fish.gif);
 	width: 40%;
 	display: inline-block;
 	float: right;
+	margin-top: -8%;
 }
 
 .image5 img {
@@ -235,6 +236,26 @@ background-image:url(Gifs/fish.gif);
 }
 
 .image5 img:hover {
+	border: 20px solid white;
+
+
+}
+
+.image6 {
+	width: 40%;
+	display: inline-block;
+	float: left;
+	margin-top: 5%;
+}
+
+.image6 img {
+	width: 100%;
+    border: 40px solid white;
+        	-webkit-transition: border 1s; /* Safari */
+    transition: border 1s;
+}
+
+.image6 img:hover {
 	border: 20px solid white;
 
 
