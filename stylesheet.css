@@ -5,7 +5,12 @@ background-position:top left;
 background-repeat:repeat;background-attachment:fixed;
 }*/
 
+* {
+	box-sizing: border-box;
+}
+
 body {
+	margin: 0px;
   background: #d7faf6; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left, #d7faf6 , #dfb9b4); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, #d7faf6, #dfb9b4); /* For Opera 11.1 to 12.0 */
@@ -87,22 +92,19 @@ body {
 
 .header {
 	background-image:url(http://www.zingerbugimages.com/backgrounds/white_marble_background_seamless.jpg);
-	width: 98.6%;
+	margin: 2%;
 	height: 250px;
-    padding-top: 3.6%;
+    padding-top: 2%;
     border: 10px solid white;
 }
 
-.mini-header {
-	background-color: #dfb9b4;
-	width: 40%;
-	margin-left: 24%;
-	padding-left: 5%;
-	padding-right: 5%;
-}
 
-.mini-header:hover {
-	background-image:url(Gifs/fish.gif);
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+		margin: 0 2rem;
 }
 
 h1 {
@@ -110,19 +112,131 @@ h1 {
     letter-spacing: 2rem;
     text-align: center;
     font-size: 150px;
-    margin: 0px;
-    padding-top: 20px;
     color: white;
+    margin: 0 auto;
+    background-color: #dfb9b4;
+    width: 50%;
+}
+
+h1:hover {
+background-image:url(Gifs/fish.gif);
 }
 
 .image1 {
-	width: 35%;
+	width: 30%;
+	display: inline-block;
+
 }
 
 .image1 img {
-	width: 80%;
+	width: 100%;
     border: 40px solid white;
-    margin-left: 3.2%;
     margin-top: 5%;
+    	-webkit-transition: border 1s; 
+    transition: border 1s;
+
+}
+
+.image1 img:hover {
+	border: 20px solid white;
+
+
+}
+
+.image2 {
+	width: 40%;
+	display: inline-block;
+	float: right;
+}
+
+.image2 img {
+	width: 100%;
+    border: 40px solid white;
+    margin-top: 5%;
+    float: right;
+        	-webkit-transition: border 1s; /* Safari */
+    transition: border 1s;
+}
+
+.image2 img:hover {
+	border: 20px solid white;
+
+
+}
+
+.text {
+	width: 20%;
+    display: inline-block;
+    margin: 0 auto;
+    background-color: white;
+    opacity: 0.6;
+    margin-top: 1.5%;
+    margin-left: 5%;
+}
+
+.text p {
+	margin: 0 auto;
+	width: 65%;
+	margin-top: 30%;
+}
+
+.image3 {
+	width: 40%;
+	display: inline-block;
+	float: left;
+	margin-top:5%;
+}
+
+.image3 img {
+	width: 100%;
+    border: 40px solid white;
+
+    float: right;
+        	-webkit-transition: border 1s; /* Safari */
+    transition: border 1s;
+}
+
+.image3 img:hover {
+	border: 20px solid white;
+
+
+}
+
+.image4 {
+	width: 40%;
+	display: inline-block;
+	float: left;
+}
+
+.image4 img {
+	width: 100%;
+    border: 40px solid white;
+        	-webkit-transition: border 1s; /* Safari */
+    transition: border 1s;
+}
+
+.image4 img:hover {
+	border: 20px solid white;
+
+
+}
+
+.image5 {
+	width: 40%;
+	display: inline-block;
+	float: right;
+}
+
+.image5 img {
+	width: 100%;
+    border: 40px solid white;
+        	-webkit-transition: border 1s; /* Safari */
+    transition: border 1s;
+}
+
+.image5 img:hover {
+	border: 20px solid white;
+
+
 }
 

@@ -6,18 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
   </head>
   <body>
+
   <div class = 'header'> 
-  <div class = 'mini-header'>
- <h1>WATER</h1>
- </div>
+
+
+  <h1>WATER</h1>
+
   </div>
 
+  <div class = 'container'>
+
   <div class = 'image1'>
-<img src = 'Images/sea.jpg'/>
+<img src = 'Images/sea.jpg' value="PLAY" onmouseenter ="play()" onmouseleave="pause()">
+<audio id="audio" src="Sounds/oceanwaves.mp3" ></audio>
 </div>
+
+<div class = 'text'>
+<p>Lorem ipsum dolor sit amet, ut pri alterum platonem, explicari constituto ei vix, in omnium ancillae mea. Sanctus vivendum per at, ei quo summo minimum, minim harum vituperata eum te. Dolorum dissentiunt et eos, elitr doming ei ius. No prima dolore aliquip his.</p>
+</div>
+
+ <div class = 'image2'>
+<img src = 'Gifs/cloud.gif' value="PLAY" onmouseenter ="play1()" onmouseleave="pause1()">
+<audio id="audio1" src="Sounds/underwater.mp3" ></audio>
+</div>
+
+ <div class = 'image3'>
+<img src = 'Gifs/bloop.gif' value="PLAY" onmouseenter ="play2()" onmouseleave="pause2()">
+<audio id="audio2" src="Sounds/bloopbloop.mp3" ></audio>
+</div>
+
+ <div class = 'image4'>
+<img src = 'Images/blocks.jpg'/>
+</div>
+
+ <div class = 'image5'>
+<img src = 'Images/glass.jpg'/>
+</div>
+</div>
+
+
       <footer class="site-footer">
 
 
@@ -25,4 +56,5 @@
 
   
   </body>
+  <script src="javascript.js"></script>
 </html>
