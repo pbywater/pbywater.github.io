@@ -5,42 +5,6 @@ background-position:top left;
 background-repeat:repeat;background-attachment:fixed;
 }*/
 
-@font-face {
-    font-family: oranienbaum;
-    src: url(Oranienbaum.ttf);
-}
-
-body {
-
-	font-family: oranienbaum;
-}
-
-.header {
-	background-image:url(http://www.zingerbugimages.com/backgrounds/white_marble_background_seamless.jpg);
-	width: 98%;
-	height: 250px;
-	margin-left: 1%;
-    margin-top: 1.5%;
-    padding-top: 3.6%;
-}
-
-.mini-header {
-	background-color: #dfb9b4;
-	width: 40%;
-	margin-left: 24%;
-	padding-left: 5%;
-	padding-right: 5%;
-}
-
-h1 {
-    letter-spacing: 2rem;
-    text-align: center;
-    font-size: 150px;
-    margin: 0px;
-    padding-top: 20px;
-    color: white;
-}
-
 body {
   background: #d7faf6; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left, #d7faf6 , #dfb9b4); /* For Safari 5.1 to 6.0 */
@@ -65,3 +29,100 @@ body {
 	background-repeat:repeat;
 	background-attachment:fixed;
 }*/
+
+@font-face {
+    font-family: oranienbaum;
+    src: url('Fonts/Oranienbaum.ttf');
+}
+
+@font-face {
+    font-family: adamas;
+    src: url('Fonts/Adamas-Regular.otf');
+}
+
+@font-face {
+    font-family: ailerons;
+    src: url('Fonts/Ailerons-Typeface.otf');
+}
+
+@font-face {
+    font-family: anders;
+    src: url('Fonts/Anders.ttf');
+}
+
+@font-face {
+    font-family: Azedo-Bold;
+    src: url('Fonts/Azedo-Bold.otf');
+}
+
+@font-face {
+    font-family: Azedo-Light;
+    src: url('Fonts/Azedo-Light.otf');
+}
+
+@font-face {
+    font-family: High Tide Sans-serif;
+    src: url('Fonts/HighTide Sans.otf');
+}
+
+@font-face {
+    font-family: High Tide;
+    src: url('Fonts/HighTide.otf');
+}
+
+@font-face {
+    font-family: Manifesto;
+    src: url('Fonts/MANIFESTO.ttf');
+}
+
+@font-face {
+    font-family: Metropolis;
+    src: url('Fonts/Metropolis 1920.otf');
+}
+
+body {
+
+	font-family: oranienbaum;
+}
+
+.header {
+	background-image:url(http://www.zingerbugimages.com/backgrounds/white_marble_background_seamless.jpg);
+	width: 98.6%;
+	height: 250px;
+    padding-top: 3.6%;
+    border: 10px solid white;
+}
+
+.mini-header {
+	background-color: #dfb9b4;
+	width: 40%;
+	margin-left: 24%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.mini-header:hover {
+	background-image:url(Gifs/fish.gif);
+}
+
+h1 {
+	font-family: ailerons;
+    letter-spacing: 2rem;
+    text-align: center;
+    font-size: 150px;
+    margin: 0px;
+    padding-top: 20px;
+    color: white;
+}
+
+.image1 {
+	width: 35%;
+}
+
+.image1 img {
+	width: 80%;
+    border: 40px solid white;
+    margin-left: 3.2%;
+    margin-top: 5%;
+}
+
