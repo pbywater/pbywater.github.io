@@ -27,6 +27,7 @@ body {
   background: linear-gradient(to right, #d7faf6 , #1c5767); /* Standard syntax */
 }
 
+
 /*body{
 	background-color:rgb(0,0,0);
 	background-image:url(http://www.zingerbugimages.com/backgrounds/green_marble.jpg);
@@ -114,7 +115,7 @@ font-size: 16px;
     font-size: 150px;
     color: white;
     margin: 0 auto;
-    background-color: #dfb9b4;
+    background-color: #e5b0ac;
     width: 50%;
 }
 
@@ -131,7 +132,7 @@ display: inline-block;
 	width: 100%;
     -webkit-transition: border 1s; 
     transition: border 1s;
-    
+
 }
 
 .image img:hover {
@@ -200,6 +201,123 @@ display: inline-block;
 	float: left;
 	margin-top: 5%;
 }
+
+/* BACK TO TOP BUTTON */
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  border-radius: 100%; /* Creates circular button. Remove line to create square button */
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top-home {
+  /*Button color for home*/
+  /*Either pick 0.8 transparent pink: rgba(253, 172, 171, 0.8)  OR 0.8 transparent blue: rgba(61, 190, 185, 0.8); */
+  background: rgba(61, 190, 185, 0.8);
+}
+.cd-top-other {
+  /*Button color for all pages except home*/
+  /*Either pick 0.8 transparent pink: rgba(253, 172, 171, 0.8)  OR 0.8 transparent blue: rgba(61, 190, 185, 0.8); */
+  background: rgba(253, 172, 171, 0.8);
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.cd-top-other:hover {
+  background-color:  #309894;
+  opacity: 1;
+}
+.cd-top-home:hover {
+  background-color:  #CA8988;
+  opacity: 1;
+}
+/* Back to top button animation - moves up and down */
+.cd-top:hover, .cd-top:focus, .cd-top:active {
+  -webkit-animation-name: cd-top-float, cd-top;
+  animation-name: cd-top-float, cd-top;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+
+@-webkit-keyframes cd-top {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes cd-top {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@-webkit-keyframes cd-top-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes cd-top-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+/* End of animation */
+/* END OF BACK TO TOP BUTTON */
 
 
 
