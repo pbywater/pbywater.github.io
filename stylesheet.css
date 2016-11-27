@@ -131,7 +131,7 @@ display: inline-block;
 	width: 100%;
     -webkit-transition: border 1s; 
     transition: border 1s;
-
+    
 }
 
 .image img:hover {
@@ -160,7 +160,7 @@ display: inline-block;
 	width: 20%;
     display: inline-block;
     margin: 0 auto;
-    background-color: red;
+    background-color: white;
     opacity: 0.6;
     margin-top: 1.5%;
     margin-left: 5%;
