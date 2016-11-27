@@ -127,13 +127,14 @@ display: inline-block;
 }
 
 .image img {
-	    border: 40px solid white;
+	    border: 40px solid red;
 	width: 100%;
     -webkit-transition: border 1s; 
     transition: border 1s;
+
 }
 
-.image.img:hover {
+.image img:hover {
 	border: 20px solid white;
 }
 
