@@ -266,3 +266,17 @@ display: inline-block;
 
 }
 
+@media screen and (max-width: 700px) {
+
+    #title  {
+	    font-size: 60px;
+    width: 90%;
+    letter-spacing: 1.5rem;
+	}
+
+	.header {
+    	padding-top: 12%;
+    }
+
+}
+
