@@ -4,16 +4,28 @@ $(function() {
 
 });
 
-// $(window).scroll(function() {
-// 	var image = $('#image3');
-// 	 var scrollTop = image.offset();
-// 	 scrollTop = scrollTop.top;
-//      var windowHeight = $(window).height(); 
-//      var scrollToTop = windowHeight - scrollTop; 
-//     console.log(scrollTop);
-    
+$(window).scroll(function() {
+	var imageOne = $('#image1');
+	var imageTwo = $('#image2');
+	var imageThree = $('#image3');
+	var imageFour = $('#image4');
+	var imageFive = $('#image5');
+	var imageSix = $('#image6');
 
-// })
+	 // var scrollTop = image.offset();
+	 scrollTop = imageOne.offset().top;
+	 windowTop = $(window).scrollTop();
+     var windowHeight = $(window).height(); 
+     var scrollToTop = (scrollTop - windowTop); 
+     imageOne.css({'transform': 'translateY(' + windowTop/7 + 'px'});
+     imageTwo.css({'transform': 'translateY(' + windowTop/2 + 'px'});
+     imageThree.css({'transform': 'translateY(' + windowTop/9 + 'px'});
+     imageFour.css({'transform': 'translateY(' + windowTop/3 + 'px'});
+     imageFive.css({'transform': 'translateY(' + windowTop/5.5 + 'px'});
+     imageSix.css({'transform': 'translateY(' + windowTop/11 + 'px'});
+
+});
+
 
 // BACK TO TOP BUTTON
 
@@ -111,5 +123,5 @@ $back_to_top.on('click', function(event){
        audio5.pause();
        }
 
-// $('#image').onClick()
+
 

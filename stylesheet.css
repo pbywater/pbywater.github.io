@@ -140,8 +140,27 @@ display: inline-block;
 }
 
 #image1 {
-	width: 30%;
+	width: 30%;/*
+	animation: rotate 10s infinite linear;*/
 
+}
+
+#image1 .animation {
+	
+/*	animation: rotate 10s infinite linear;*/
+	
+}
+
+@keyframes rotate {
+	 0% {transform: rotate(0deg);}
+	50% {transform: rotate(360deg);}
+	100% {transform: rotate(720deg);}
+}
+
+@keyframes goMad {
+	 0% {transform: translate(-100px); opacity: 0; border: 6px solid pink; padding:120px; position: fixed; top:35vh;}
+	50% {transform: translate(300px); opacity: 1; border: 13px dashed green; padding:10px; position: fixed; right:35vh; top: 78px;}
+	100% {transform: rotate(720deg); opacity: .5; border: 20px dashed black; padding:10px; position: fixed; bottom:35vh;}
 }
 
 
@@ -153,6 +172,7 @@ display: inline-block;
 #image2 {
 	width: 40%;
 	float: right;
+	/*animation: goMad .5s infinite;*/
 }
 
 #image2 img {
@@ -215,13 +235,15 @@ display: inline-block;
 
 .cd-top {
   display: inline-block;
-width: 12%;
-/*  background-image: url(icons/WaterPip-01.png);*/
+width: 130px;
+height: 130px;
+  background-image: url(icons/WaterPip-01.png);
+  background-size: cover;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   position: fixed;
-  bottom: -5%;
-  right: -3%;
+  bottom: 0;
+  right: 0;
   /* image properties */
   overflow: hidden;
   text-indent: 100%;
@@ -251,8 +273,9 @@ width: 12%;
   opacity: .5;
 }
 
-.cd-top-home img:hover {
+.cd-top-home:hover {
   background-image: url(icons/WaterPip-02.png);
+  background-size: cover;
 }
 
 /* Back to top button animation - moves up and down */
