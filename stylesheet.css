@@ -144,9 +144,11 @@ display: inline-block;
 
 }
 
+
 #image1 img {
     margin-top: 5%;
 }
+
 
 #image2 {
 	width: 40%;
@@ -155,6 +157,13 @@ display: inline-block;
 
 #image2 img {
     float: right;
+    margin-top: 4%;
+}
+
+#image2 img:hover {
+   border-color: #e6ebef;
+   border-width: 0px 80px 150px 80px;
+   border-style: solid;
 }
 
 .text {
@@ -206,14 +215,13 @@ display: inline-block;
 
 .cd-top {
   display: inline-block;
-  height: 40px;
-  width: 40px;
+width: 12%;
+/*  background-image: url(icons/WaterPip-01.png);*/
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   position: fixed;
-  bottom: 40px;
-  right: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  bottom: -5%;
+  right: -3%;
   /* image properties */
   overflow: hidden;
   text-indent: 100%;
@@ -226,37 +234,27 @@ display: inline-block;
   transition: opacity .3s 0s, visibility 0s .3s;
 }
 .cd-top-home {
-  /*Button color for home*/
-  /*Either pick 0.8 transparent pink: rgba(253, 172, 171, 0.8)  OR 0.8 transparent blue: rgba(61, 190, 185, 0.8); */
-  background: rgba(61, 190, 185, 0.8);
+ /*  background-image: url(icons/WaterPip-01.png);*/
+
 }
-.cd-top-other {
-  /*Button color for all pages except home*/
-  /*Either pick 0.8 transparent pink: rgba(253, 172, 171, 0.8)  OR 0.8 transparent blue: rgba(61, 190, 185, 0.8); */
-  background: rgba(253, 172, 171, 0.8);
-}
+
 .cd-top.cd-is-visible, .cd-top.cd-fade-out, .cd-top:hover {
   -webkit-transition: opacity .3s 0s, visibility 0s 0s;
   -moz-transition: opacity .3s 0s, visibility 0s 0s;
   transition: opacity .3s 0s, visibility 0s 0s;
 }
 .cd-top.cd-is-visible {
-  /* the button becomes visible */
   visibility: visible;
-  opacity: 1;
+  opacity: 0.7;
 }
 .cd-top.cd-fade-out {
-  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
   opacity: .5;
 }
-.cd-top-other:hover {
-  background-color:  #309894;
-  opacity: 1;
+
+.cd-top-home img:hover {
+  background-image: url(icons/WaterPip-02.png);
 }
-.cd-top-home:hover {
-  background-color:  #CA8988;
-  opacity: 1;
-}
+
 /* Back to top button animation - moves up and down */
 .cd-top:hover, .cd-top:focus, .cd-top:active {
   -webkit-animation-name: cd-top-float, cd-top;
