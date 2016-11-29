@@ -281,8 +281,16 @@ margin-bottom: 10%;
 .drop {
 	position: absolute;
 	width: 3%;
-    margin-top: 65%;
-    margin-left: 80%;
+    margin-top: 86%;
+    margin-left: 20%;
+
+}
+
+.drop2 {
+	position: absolute;
+    width: 4%;
+    margin-top: 95%;
+    margin-left: 0%;
 
 }
 
