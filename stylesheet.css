@@ -158,20 +158,28 @@ margin-bottom: 10%;
 }
 
 
-#image1 img {
-    margin-top: 5%;
+#image1 {
+    margin-top: 1.5%;
 }
+
+#image1.enlarge {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 4%;
+}
+
 
 
 #image2 {
 	width: 40%;
 	float: right;
+	    margin-top: 1.5%;
 	/*animation: goMad .5s infinite;*/
 }
 
 #image2 img {
     float: right;
-    margin-top: 4%;
+
 }
 
 #image2 img:hover {
@@ -179,6 +187,13 @@ margin-bottom: 10%;
    border-width: 0px 80px 150px 80px;
    border-style: solid;
 }
+
+#image2.enlarge2 {
+	width: 60%;
+	margin: 0 auto;
+	margin-top:8%;
+}
+
 
 .text {
 	width: 20%;
@@ -188,6 +203,7 @@ margin-bottom: 10%;
     opacity: 0.6;
     height: 50%;
 }
+
 
 .text p {
 	margin: 30%;
@@ -294,6 +310,23 @@ margin-bottom: 10%;
 
 }
 
+.arrow-left {
+  display: inline-block;
+width: 130px;
+height: 130px;
+  background-image: url(icons/WaterPip-01.png);
+  background-size: cover;
+  position: fixed;
+ opacity: 0.7;
+    margin: 0 auto;
+    bottom: 40%;
+    left: 3%;
+}
+
+/*.arrow-left .hide {
+	display: none;
+}*/
+
 /* BACK TO TOP BUTTON */
 
 .cd-top {
@@ -317,10 +350,6 @@ height: 130px;
   -webkit-transition: opacity .3s 0s, visibility 0s .3s;
   -moz-transition: opacity .3s 0s, visibility 0s .3s;
   transition: opacity .3s 0s, visibility 0s .3s;
-}
-.cd-top-home {
- /*  background-image: url(icons/WaterPip-01.png);*/
-
 }
 
 .cd-top.cd-is-visible, .cd-top.cd-fade-out, .cd-top:hover {
@@ -494,5 +523,9 @@ height: 130px;
     	width: 100%;
     }
 
+}
+
+.hide {
+	display: none;
 }
 

@@ -30,6 +30,32 @@ $(window).scroll(function() {
 
 });
 
+$( "#image1" ).click(function() {
+  $('.header').toggleClass('hide');
+  $('.image').toggleClass('hide');
+  $('.text p').toggleClass('hide');
+  $('#image1').removeClass('hide').toggleClass('enlarge');
+  $('.arrow-left').toggleClass('hide');
+  $('.arrow-right').toggleClass('hide');
+});
+
+$('#image1, #image2').on('click', function(event){
+  event.preventDefault();
+  $('body,html').animate({
+    scrollTop: 0 ,
+  }, scroll_top_duration
+  );
+});
+
+$( "#image2" ).click(function() {
+  $('.header').toggleClass('hide');
+  $('.image').toggleClass('hide');
+  $('.text p').toggleClass('hide');
+  $('#image2').removeClass('hide').toggleClass('enlarge2');
+  $('.arrow-left').toggleClass('hide');
+  $('.arrow-right').toggleClass('hide');
+});
+
 
 // BACK TO TOP BUTTON
 
