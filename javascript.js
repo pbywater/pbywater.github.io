@@ -11,18 +11,22 @@ $(window).scroll(function() {
 	var imageFour = $('#image4');
 	var imageFive = $('#image5');
 	var imageSix = $('#image6');
+	var text = $('.text');
 
 	 // var scrollTop = image.offset();
 	 scrollTop = imageOne.offset().top;
 	 windowTop = $(window).scrollTop();
      var windowHeight = $(window).height(); 
      var scrollToTop = (scrollTop - windowTop); 
-     imageOne.css({'transform': 'translateY(' + windowTop/7 + 'px'});
+     imageOne.css({'transform': 'translate(' + windowTop/6 + 'px' + ',' + windowTop/6 + 'px'});
+     // imageOne.css({'transform': 'translateX(' + windowTop/5 + 'px'});
      imageTwo.css({'transform': 'translateY(' + windowTop/2 + 'px'});
      imageThree.css({'transform': 'translateY(' + windowTop/9 + 'px'});
-     imageFour.css({'transform': 'translateY(' + windowTop/3 + 'px'});
-     imageFive.css({'transform': 'translateY(' + windowTop/5.5 + 'px'});
-     imageSix.css({'transform': 'translateY(' + windowTop/11 + 'px'});
+     imageFour.css({'transform': 'translateY(' + windowTop/7 + 'px'});
+     imageFive.css({'transform': 'translate(' + windowTop/20 + 'px' + ',' + windowTop/20 + 'px'});
+     imageSix.css({'transform': 'translate(' + windowTop/-20 + 'px' + ',' + windowTop/-20 + 'px'});
+     text.css({'transform': 'translateX(' + windowTop/3 + 'px'});
+     text.fadeOut('5000');
 
 });
 
