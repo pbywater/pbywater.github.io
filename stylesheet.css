@@ -568,6 +568,60 @@ height: 130px;
     	width: 100%;
     }
 
+    #image1.enlarge {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 30%;
+
+}
+
+    #image2.enlarge2 {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 30%;
+
+}
+
+    #image3.enlarge3 {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 30%;
+
+}
+
+    #image4.enlarge4 {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 30%;
+
+}
+
+    #image5.enlarge5 {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 30%;
+
+}
+
+    #image6.enlarge6 {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 30%;
+
+}
+
+.arrow-left {
+
+    margin: 0 auto;
+    bottom: 12%;
+
+}
+
+.arrow-right {
+
+    bottom: 12%;
+}
+
 }
 
 .hide {

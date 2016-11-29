@@ -230,6 +230,12 @@ if ( $(window).width() < 739) {
   $('.text').hide();
   $('.mobile-text').removeClass('hide');
   $('.background-icon').hide();
+
+  $( "#image1, #image2, #image3, #image4, #image5, #image6" ).click(function() {
+  $('.mobile-text').toggleClass('hide');
+
+});
+
 } 
 
 
