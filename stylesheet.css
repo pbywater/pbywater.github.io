@@ -141,8 +141,14 @@ margin-bottom: 10%;
 
 @keyframes rotate {
 	 0% {transform: rotate(0deg);}
-	50% {transform: rotate(360deg);}
-	100% {transform: rotate(720deg);}
+	50% {transform: rotate(-30deg);}
+	100% {transform: rotate(0deg);}
+}
+
+@keyframes rotate2 {
+	 0% {transform: rotate(0deg);}
+	50% {transform: rotate(180deg);}
+	100% {transform: rotate(360deg);}
 }
 
 @keyframes goMad {
@@ -232,7 +238,53 @@ margin-bottom: 10%;
 		margin-left: 10%
 }
 
+.raindrops {
+	position: absolute;
+	width: 15%;
+    margin-top: 45%;
+    margin-left: 55%;
+    animation: rotate 7s infinite linear;
+}
 
+.dropsil {
+	position: absolute;
+	width: 15%;
+    margin-top: 95%;
+    margin-left: 35%;
+    animation: rotate 10s infinite linear;
+}
+
+.water {
+	position: absolute;
+    width: 5%;
+    margin-top: 170%;
+    margin-left: 5%;
+    animation: rotate2 5s infinite linear;
+}
+
+.bubbles2 {
+	position: absolute;
+	width: 8%;
+    margin-top: 135%;
+    margin-left: 55%;
+    animation: rotate 20s infinite linear;
+}
+
+.waves {
+	position: absolute;
+	width: 5%;
+    margin-top: 180%;
+    margin-left: 55%;
+    animation: rotate 15s infinite linear;
+}
+
+.drop {
+	position: absolute;
+	width: 3%;
+    margin-top: 65%;
+    margin-left: 80%;
+
+}
 
 /* BACK TO TOP BUTTON */
 
