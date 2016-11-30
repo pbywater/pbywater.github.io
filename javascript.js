@@ -31,10 +31,10 @@ $(window).scroll(function() {
 
 });
 
-$(document).click(function() {
-	$('#image1, #image2, #image3, #image4, #image5, #image6').removeClass('enlarge, enlarge2, enlarge3, enlarge4, enlarge5, enlarge6')
+// $(document).click(function() {
+// 	$('#image1, #image2, #image3, #image4, #image5, #image6').removeClass('enlarge, enlarge2, enlarge3, enlarge4, enlarge5, enlarge6')
 
-});
+// });
 
 //Enlarge on click and scroll to top
 
@@ -55,6 +55,7 @@ $( "#image1" ).click(function() {
   $('.arrow-left').toggleClass('hide');
   $('.arrow-right').toggleClass('hide');
   $('.background-icon').toggleClass('hide');
+    $('#pop.background-icon').addClass('hide');
 });
 
 // $('.arrow-right').click(function() {
@@ -92,6 +93,7 @@ $( "#image2" ).click(function() {
   $('.arrow-left').toggleClass('hide');
   $('.arrow-right').toggleClass('hide');
   $('.background-icon').toggleClass('hide');
+  $('#pop.background-icon').addClass('hide');
 });
 
 $( "#image3" ).click(function() {
@@ -102,6 +104,7 @@ $( "#image3" ).click(function() {
   $('.arrow-left').toggleClass('hide');
   $('.arrow-right').toggleClass('hide');
   $('.background-icon').toggleClass('hide');
+   $('#pop.background-icon').addClass('hide');
 });
 
 $( "#image4" ).click(function() {
@@ -112,6 +115,7 @@ $( "#image4" ).click(function() {
   $('.arrow-left').toggleClass('hide');
   $('.arrow-right').toggleClass('hide');
   $('.background-icon').toggleClass('hide');
+   $('#pop.background-icon').addClass('hide');
 });
 
 $( "#image5" ).click(function() {
@@ -122,6 +126,7 @@ $( "#image5" ).click(function() {
   $('.arrow-left').toggleClass('hide');
   $('.arrow-right').toggleClass('hide');
   $('.background-icon').toggleClass('hide');
+   $('#pop.background-icon').addClass('hide');
 });
 
 $( "#image6" ).click(function() {
@@ -132,6 +137,7 @@ $( "#image6" ).click(function() {
   $('.arrow-left').toggleClass('hide');
   $('.arrow-right').toggleClass('hide');
   $('.background-icon').toggleClass('hide');
+   $('#pop.background-icon').addClass('hide');
 });
 
 
@@ -170,7 +176,41 @@ $back_to_top.on('click', function(event){
        document.getElementById("audio3").loop = true;
        document.getElementById("audio4").loop = true;
        document.getElementById("audio5").loop = true;
+       document.getElementById("popSound");
   
+
+//pop
+
+  function pop(){
+       popSound.play();
+       }
+
+//bubbles
+
+$( "#bubbles" ).click(function() {
+	pop();
+	$('#bubbles').fadeOut(100);
+	 $('#pop.background-icon.hide').fadeIn(200);
+ $('#pop.background-icon.hide').removeClass('hide');
+ $('#pop').fadeOut(100);
+});
+
+$( "#bubbles2" ).click(function() {
+	pop();
+	$('#bubbles2').fadeOut(100);
+	 $('#pop2.background-icon.hide').fadeIn(200);
+ $('#pop2.background-icon.hide').removeClass('hide');
+ $('#pop2').fadeOut(100);
+});
+
+$( "#bubbles3" ).click(function() {
+	pop();
+	$('#bubbles3').fadeOut(100);
+	 $('#pop3.background-icon.hide').fadeIn(200);
+ $('#pop3.background-icon.hide').removeClass('hide');
+ $('#pop3').fadeOut(100);
+});
+
 
   //sound
 
