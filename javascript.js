@@ -285,6 +285,9 @@ if ( $(window).width() < 739) {
   $('#image1').click(function() {
 play();
   });
+    $('#image1 enlarge').click(function() {
+pause();
+  });
 
 } 
 
