@@ -12,6 +12,7 @@ $(window).scroll(function() {
 	var imageFive = $('#image5');
 	var imageSix = $('#image6');
 	var text = $('.text');
+	var mobileText = $('.mobile-text');
 
 
 	 // var scrollTop = image.offset();
@@ -28,7 +29,7 @@ $(window).scroll(function() {
      imageSix.css({'transform': 'translate(' + windowTop/-20 + 'px' + ',' + windowTop/-20 + 'px'});
      text.css({'transform': 'translateX(' + windowTop/3 + 'px'});
      text.fadeOut('5000');
-     mobile-text.fadeOut('5000');
+     mobileText.fadeOut('5000');
 
 });
 
