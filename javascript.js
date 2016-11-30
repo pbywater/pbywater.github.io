@@ -431,61 +431,61 @@ if ( $(window).width() < 739) {
 
 
 
-  $('#image1').click(function() {
-mobsound1();
-  });
+//   $('#image1').click(function() {
+// mobsound1();
+//   });
 
-    $('#image2').click(function() {
+//     $('#image2').click(function() {
 
-pause();
-play1();
-pause2();
-pause3();
-pause4();
-pause5();
-  });
+// pause();
+// play1();
+// pause2();
+// pause3();
+// pause4();
+// pause5();
+//   });
 
-      $('#image3').click(function() {
+//       $('#image3').click(function() {
 
-pause();
-pause1();
-play2();
-pause3();
-pause4();
-pause5();
-  });
+// pause();
+// pause1();
+// play2();
+// pause3();
+// pause4();
+// pause5();
+//   });
 
-        $('#image4').click(function() {
+//         $('#image4').click(function() {
 
-pause();
-pause1();
-pause2();
-play3();
-pause4();
-pause5();
-  });
+// pause();
+// pause1();
+// pause2();
+// play3();
+// pause4();
+// pause5();
+//   });
 
-          $('#image5').click(function() {
+//           $('#image5').click(function() {
 
-pause();
-pause1();
-pause2();
-pause3();
-play4();
-pause5();
-  });
+// pause();
+// pause1();
+// pause2();
+// pause3();
+// play4();
+// pause5();
+//   });
 
-            $('#image6').click(function() {
+//             $('#image6').click(function() {
 
-pause();
-pause1();
-pause2();
-pause3();
-pause4();
-play5();
-  });
+// pause();
+// pause1();
+// pause2();
+// pause3();
+// pause4();
+// play5();
+//   });
 
 
-} 
+// } 
 
 
