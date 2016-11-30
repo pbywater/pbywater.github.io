@@ -209,6 +209,7 @@ margin-bottom: 10%;
 
 .text p {
 	margin: 30%;
+	font-family: 'avenir';
 }
 
     .mobile-text {
@@ -219,6 +220,7 @@ display: inline-block;
     	margin-top: 2%;
     	margin-left: 0%;
     	width: 100%;
+    	font-family: 'avenir';
     }
 
 
