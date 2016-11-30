@@ -245,7 +245,7 @@ display: inline-block;
 }
 
 #image4.enlarge4 {
-	width: 50%;
+	width: 45%;
 	margin: 0 auto;
 	margin-top: 2%;
 }
@@ -283,9 +283,9 @@ display: inline-block;
 		margin-left: 40%
 }
 
-#shark {
+#wavesbig {
 	position: absolute;
-	width: 10%;	
+	width: 15%;	
 	margin-top: 35%;
 		margin-left: 10%
 }
@@ -324,7 +324,7 @@ display: inline-block;
 
 #waves {
 	position: absolute;
-	width: 5%;
+	width: 10%;
     margin-top: 180%;
     margin-left: 55%;
     animation: rotate 15s infinite linear;
@@ -350,7 +350,7 @@ display: inline-block;
   display: inline-block;
 width: 130px;
 height: 130px;
-  background-image: url(icons/WaterPip-01.png);
+  background-image: url(icons/leftbefore.png);
   background-size: cover;
   position: fixed;
  opacity: 0.7;
@@ -359,17 +359,27 @@ height: 130px;
     left: 3%;
 }
 
+.arrow-left:hover {
+background-image: url(icons/lefthover.png);
+ background-size: cover;
+}
+
 .arrow-right {
   display: inline-block;
 width: 130px;
 height: 130px;
-  background-image: url(icons/WaterPip-01.png);
+  background-image: url(icons/rightbefore.png);
   background-size: cover;
   position: fixed;
  opacity: 0.7;
     margin: 0 auto;
     bottom: 40%;
     right: 3%;
+}
+
+.arrow-right:hover {
+background-image: url(icons/righthover.png);
+ background-size: cover;
 }
 
 /* BACK TO TOP BUTTON */
