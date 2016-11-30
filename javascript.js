@@ -57,7 +57,7 @@ $( "#image1" ).click(function() {
   $('.arrow-left').toggleClass('hide');
   $('.arrow-right').toggleClass('hide');
   $('.background-icon').toggleClass('hide');
-    $('#pop.background-icon').addClass('hide');
+    $('#pop.background-icon, #pop2.background-icon, #pop3.background-icon').addClass('hide');
 });
 
 // $('.arrow-right').click(function() {
@@ -95,7 +95,8 @@ $( "#image2" ).click(function() {
   $('.arrow-left').toggleClass('hide');
   $('.arrow-right').toggleClass('hide');
   $('.background-icon').toggleClass('hide');
-  $('#pop.background-icon').addClass('hide');
+  $('#pop.background-icon, #pop2.background-icon, #pop3.background-icon').addClass('hide');
+  
 });
 
 $( "#image3" ).click(function() {
@@ -106,7 +107,7 @@ $( "#image3" ).click(function() {
   $('.arrow-left').toggleClass('hide');
   $('.arrow-right').toggleClass('hide');
   $('.background-icon').toggleClass('hide');
-   $('#pop.background-icon').addClass('hide');
+   $('#pop.background-icon, #pop2.background-icon, #pop3.background-icon').addClass('hide');
 });
 
 $( "#image4" ).click(function() {
@@ -117,7 +118,7 @@ $( "#image4" ).click(function() {
   $('.arrow-left').toggleClass('hide');
   $('.arrow-right').toggleClass('hide');
   $('.background-icon').toggleClass('hide');
-   $('#pop.background-icon').addClass('hide');
+   $('#pop.background-icon, #pop2.background-icon, #pop3.background-icon').addClass('hide');
 });
 
 $( "#image5" ).click(function() {
@@ -128,7 +129,7 @@ $( "#image5" ).click(function() {
   $('.arrow-left').toggleClass('hide');
   $('.arrow-right').toggleClass('hide');
   $('.background-icon').toggleClass('hide');
-   $('#pop.background-icon').addClass('hide');
+  $('#pop.background-icon, #pop2.background-icon, #pop3.background-icon').addClass('hide');
 });
 
 $( "#image6" ).click(function() {
@@ -139,7 +140,7 @@ $( "#image6" ).click(function() {
   $('.arrow-left').toggleClass('hide');
   $('.arrow-right').toggleClass('hide');
   $('.background-icon').toggleClass('hide');
-   $('#pop.background-icon').addClass('hide');
+  $('#pop.background-icon, #pop2.background-icon, #pop3.background-icon').addClass('hide');
 });
 
 
@@ -282,12 +283,18 @@ if ( $(window).width() < 739) {
   $('.mobile-text').toggleClass('hide');
 
 });
-  $('#image1').click(function() {
-play();
-  });
-    $('#image1 enlarge').click(function() {
+
+if ($('#image1').hasClass('enlarge')) {
+    $('#image1').click(function() {
 pause();
   });
+}
+else {
+  $('#image1').click(function() {
+
+play();
+  });
+}
 
 } 
 
