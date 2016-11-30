@@ -282,6 +282,9 @@ if ( $(window).width() < 739) {
   $('.mobile-text').toggleClass('hide');
 
 });
+  $('#image1').click(function() {
+play();
+  });
 
 } 
 
