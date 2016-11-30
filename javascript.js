@@ -429,7 +429,7 @@ if ( $(window).width() < 739) {
 
 });
 
-
+}
 
 //   $('#image1').click(function() {
 // mobsound1();
@@ -486,6 +486,6 @@ if ( $(window).width() < 739) {
 //   });
 
 
-} 
+// } 
 
 
