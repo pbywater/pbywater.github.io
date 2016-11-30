@@ -310,7 +310,7 @@ pause5();
 
 pause();
 pause1();
-play();
+play2();
 pause3();
 pause4();
 pause5();
