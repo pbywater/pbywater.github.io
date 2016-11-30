@@ -613,13 +613,13 @@ height: 130px;
 .arrow-left {
 
     margin: 0 auto;
-    bottom: 12%;
+    bottom: 0%;
 
 }
 
 .arrow-right {
 
-    bottom: 12%;
+    bottom: 0%;
 }
 
 }

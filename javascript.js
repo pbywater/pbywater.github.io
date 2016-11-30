@@ -31,6 +31,11 @@ $(window).scroll(function() {
 
 });
 
+$(document).click(function() {
+	$('#image1, #image2, #image3, #image4, #image5, #image6').removeClass('enlarge, enlarge2, enlarge3, enlarge4, enlarge5, enlarge6')
+
+});
+
 //Enlarge on click and scroll to top
 
 $('#image1, #image2, #image3, #image4, #image5, #image6').on('click', function(event){
