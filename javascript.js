@@ -274,6 +274,38 @@ $( "#bubbles3" ).click(function() {
        audio5.pause();
        }
 
+       //slider
+// if ($('.arrow-right').hasClass('hide')) {
+// 	console.log('do nothing');
+// }
+
+// else {
+
+//        var slideIndex = 1;
+// showSlides(slideIndex);
+
+// function plusSlides(n) {
+//   showSlides(slideIndex += n);
+// }
+
+// function currentSlide(n) {
+//   showSlides(slideIndex = n);
+// }
+
+// function showSlides(n) {
+//   var i;
+//   var slides = document.getElementsByClassName("image");
+//   if (n > slides.length) {slideIndex = 1} 
+//   if (n < 1) {slideIndex = slides.length}
+//   for (i = 0; i < slides.length; i++) {
+//       slides[i].style.display = "none"; 
+//   }
+//   slides[slideIndex-1].style.display = "block"; 
+// }
+
+// }
+       //responsive
+
 if ( $(window).width() < 739) {      
   $('.text').hide();
   $('.mobile-text').removeClass('hide');
