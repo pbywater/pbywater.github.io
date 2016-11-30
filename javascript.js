@@ -96,7 +96,7 @@ $( "#image2" ).click(function() {
   $('.arrow-right').toggleClass('hide');
   $('.background-icon').toggleClass('hide');
   $('#pop.background-icon, #pop2.background-icon, #pop3.background-icon').addClass('hide');
-  
+
 });
 
 $( "#image3" ).click(function() {
@@ -284,17 +284,68 @@ if ( $(window).width() < 739) {
 
 });
 
-if ($('#image1').hasClass('enlarge')) {
-    $('#image1').click(function() {
-pause();
-  });
-}
-else {
+
+
   $('#image1').click(function() {
 
 play();
+pause1();
+pause2();
+pause3();
+pause4();
+pause5();
   });
-}
+
+    $('#image2').click(function() {
+
+pause();
+play1();
+pause2();
+pause3();
+pause4();
+pause5();
+  });
+
+      $('#image3').click(function() {
+
+pause();
+pause1();
+play();
+pause3();
+pause4();
+pause5();
+  });
+
+        $('#image4').click(function() {
+
+pause();
+pause1();
+pause2();
+play3();
+pause4();
+pause5();
+  });
+
+          $('#image5').click(function() {
+
+pause();
+pause1();
+pause2();
+pause3();
+play4();
+pause5();
+  });
+
+            $('#image6').click(function() {
+
+pause();
+pause1();
+pause2();
+pause3();
+pause4();
+play5();
+  });
+
 
 } 
 
