@@ -167,9 +167,8 @@ margin-bottom: 10%;
 	width: 50%;
 	margin: 0 auto;
 	margin-top: 4%;
-
+display: inline-block;
 }
-
 
 
 #image2 {
@@ -190,7 +189,7 @@ margin-bottom: 10%;
    border-style: solid;
 }
 
-#image2.enlarge2 {
+#image2.enlarge {
 	width: 70%;
 	margin: 0 auto;
 	margin-top: 9%;
@@ -231,7 +230,7 @@ display: inline-block;
 	margin-top:5%;
 }
 
-#image3.enlarge3 {
+#image3.enlarge {
 	width: 60%;
 	margin: 0 auto;
 	margin-top: 6%;
@@ -247,7 +246,7 @@ display: inline-block;
 	margin-top: 30%;
 }
 
-#image4.enlarge4 {
+#image4.enlarge {
 	width: 45%;
 	margin: 0 auto;
 	margin-top: 2%;
@@ -260,7 +259,7 @@ display: inline-block;
 	margin-top: -15%;
 }
 
-#image5.enlarge5 {
+#image5.enlarge {
 	width: 43%;
 	margin: 0 auto;
 	margin-top: 2%;
@@ -273,7 +272,7 @@ display: inline-block;
 
 }
 
-#image6.enlarge6 {
+#image6.enlarge {
 	width: 65%;
 	margin: 0 auto;
 	margin-top: 6%;
