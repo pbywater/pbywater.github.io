@@ -308,6 +308,19 @@ $( "#bubbles3" ).click(function() {
   $('#image1.image').removeClass('hide').addClass('enlarge') ;
   console.log('adding enlarge to image1');
     $('#pop.background-icon, #pop2.background-icon, #pop3.background-icon').addClass('hide');
+
+if ( $(window).width() < 739) {      
+  function mobSound1() {
+play();
+pause1();
+pause2();
+pause3();
+pause4();
+pause5();
+  }
+mobSound1();
+}
+
 }
 
        function img2Slide() {
@@ -419,13 +432,7 @@ if ( $(window).width() < 739) {
 
 
   $('#image1').click(function() {
-
-play();
-pause1();
-pause2();
-pause3();
-pause4();
-pause5();
+mobsound1();
   });
 
     $('#image2').click(function() {
