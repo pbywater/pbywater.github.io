@@ -471,6 +471,7 @@ height: 130px;
 @media screen and (max-width: 1180px) {
     #title {
         font-size:130px;
+            font-family: ailerons;
     }
     	.text p {
 		margin-top:10%;
@@ -496,6 +497,7 @@ height: 130px;
 @media screen and (max-width: 1000px) {
     #title {
         font-size:100px;
+            font-family: ailerons;
     }
 
     .header {
@@ -513,6 +515,7 @@ height: 130px;
     #title {
         font-size:90px;
         width: 60%;
+            font-family: ailerons;
     }
 
     .header {
