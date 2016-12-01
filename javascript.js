@@ -450,26 +450,31 @@ function showSlides(n) {
   if (slideIndex-1 == 0 && $('.image').hasClass('enlarge')) {
   	console.log('change to first image');
   	img1Slide();
+  	 $('#wavesBig, #raindrops, #dropsil, #water, #waves, #drop, #drop2').addClass('hide');
   }
 
    if (slideIndex-1 == 1) {
   	console.log('second image');
   	img2Slide();
+  	 $('#wavesBig, #raindrops, #dropsil, #water, #waves, #drop, #drop2').addClass('hide');
   }
 
     else if (slideIndex-1 == 2) {
   	console.log('third image');
   	img3Slide();
+  	 $('#wavesBig, #raindrops, #dropsil, #water, #waves, #drop, #drop2').addClass('hide');
   }
 
       else if (slideIndex-1 == 3) {
   	console.log('fourth image');
   	img4Slide();
+  	 $('#wavesBig, #raindrops, #dropsil, #water, #waves, #drop, #drop2').addClass('hide');
   }
 
        else if (slideIndex-1 == 4) {
   	console.log('fifth image');
   	img5Slide();
+  	 $('#wavesBig, #raindrops, #dropsil, #water, #waves, #drop, #drop2').addClass('hide');
   }
 
      else if (slideIndex-1 == 5) {
@@ -486,8 +491,8 @@ if ( $(window).width() < 739) {
   $('.text').hide();
   $('.mobile-text').removeClass('hide');
   $('.background-icon').addClass('hide');
-  $('#bubbles, #bubbles2, #bubbles3').removeClass('hide')
-
+  $('#wavesBig, #raindrops, #dropsil, #water, #waves, #drop, #drop2').addClass('hide');
+  $('#bubbles, #bubbles2, #bubbles3').removeClass('hide');
   $( "#image1, #image2, #image3, #image4, #image5, #image6" ).click(function() {
   $('.mobile-text').toggleClass('hide');
 
