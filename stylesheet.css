@@ -262,7 +262,7 @@ display: inline-block;
 #water {
 	position: absolute;
     width: 5%;
-    margin-top: 170%;
+    margin-top: 187%;
     margin-left: 5%;
     animation: rotate2 5s infinite linear;
     z-index: -1;
