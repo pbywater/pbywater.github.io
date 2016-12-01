@@ -666,6 +666,19 @@ height: 130px;
     bottom: 0%;
 }
 
+.mute {
+  display: inline-block;
+width: 35px;
+height: 35px;
+  background-image: url(icons/mute.png);
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+}
+
+
 }
 
 .hide {
