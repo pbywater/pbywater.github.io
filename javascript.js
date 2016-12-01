@@ -510,7 +510,7 @@ mobsound5();
   }
 
   if($('#image6').hasClass('enlarge')) {
-mobsound();
+mobsound6();
   }
 
 
