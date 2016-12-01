@@ -305,7 +305,7 @@ $( "#bubbles3" ).click(function() {
        function img1Slide() {
 
   $('#image2, #image3, #image4, #image5, #image6').removeClass('enlarge').addClass('hide');
-  $('#image1.image').removeClass('hide').addClass('enlarge') ;
+  $('#image1').removeClass('hide').addClass('enlarge') ;
   console.log('adding enlarge to image1');
     $('#pop.background-icon, #pop2.background-icon, #pop3.background-icon').addClass('hide');
 
@@ -318,7 +318,7 @@ pause3();
 pause4();
 pause5();
   }
-mobSound1();
+// mobSound1();
 }
 
 }
@@ -337,7 +337,7 @@ pause3();
 pause4();
 pause5();
   }
-mobSound2();
+// mobSound2();
 }
 
 }
@@ -356,7 +356,7 @@ pause3();
 pause4();
 pause5();
   }
-mobSound2();
+// mobSound2();
 }
 }
 
@@ -375,7 +375,7 @@ play3();
 pause4();
 pause5();
   }
-mobSound3();
+// mobSound3();
 }
 }
 
@@ -393,7 +393,7 @@ pause3();
 play4();
 pause5();
   }
-mobSound4();
+// mobSound4();
 }
 }
 
@@ -411,7 +411,7 @@ pause3();
 pause4();
 play5();
   }
-mobSound5();
+// mobSound5();
 }
 }
 
@@ -486,63 +486,34 @@ if ( $(window).width() < 739) {
 
 });
 
-}
-
-//   $('#image1').click(function() {
-// mobsound1();
-//   });
-
-//     $('#image2').click(function() {
-
-// pause();
-// play1();
-// pause2();
-// pause3();
-// pause4();
-// pause5();
-//   });
-
-//       $('#image3').click(function() {
-
-// pause();
-// pause1();
-// play2();
-// pause3();
-// pause4();
-// pause5();
-//   });
-
-//         $('#image4').click(function() {
-
-// pause();
-// pause1();
-// pause2();
-// play3();
-// pause4();
-// pause5();
-//   });
-
-//           $('#image5').click(function() {
-
-// pause();
-// pause1();
-// pause2();
-// pause3();
-// play4();
-// pause5();
-//   });
-
-//             $('#image6').click(function() {
-
-// pause();
-// pause1();
-// pause2();
-// pause3();
-// pause4();
-// play5();
-//   });
 
 
-// } 
+  if($('#image1').hasClass('enlarge')) {
+mobsound1();
+  }
+
+  if($('#image2').hasClass('enlarge')) {
+mobsound2();
+  }
+
+  if($('#image3').hasClass('enlarge')) {
+mobsound3();
+  }
+
+  if($('#image4').hasClass('enlarge')) {
+mobsound4();
+  }
+
+  if($('#image5').hasClass('enlarge')) {
+
+mobsound5();
+  }
+
+  if($('#image6').hasClass('enlarge')) {
+mobsound();
+  }
+
+
+} 
 
 
