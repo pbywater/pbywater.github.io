@@ -678,6 +678,56 @@ bottom: 6%;
   opacity: 0.7;
 }
 
+#bubbles {
+    position: absolute;
+    width: 15%;
+    margin-top: 10%;
+    margin-left: -7%;
+    z-index: 1;
+}
+
+
+
+#pop {
+    position: absolute;
+    width: 38%;
+    margin-left: -17%;
+    z-index: 1;
+}
+
+#bubbles2 {
+    position: absolute;
+    width: 25%;
+    margin-top: 253%;
+    margin-left: -10%;
+    animation: none;
+    z-index: 1;
+}
+
+#pop2 {
+    position: absolute;
+    width: 63%;
+    margin-top: 233%;
+    margin-left: -28%;
+    animation: none;
+    z-index: 1;
+}
+
+#bubbles3 {
+    position: absolute;
+    width: 17%;
+    margin-top: 176%;
+    margin-left: 66%;
+    transform: rotate(30deg);
+}
+
+#pop3 {
+    position: absolute;
+    width: 40%;
+    margin-top: 164%;
+    margin-left: 54%;
+    transform: rotate(30deg);
+}
 
 }
 

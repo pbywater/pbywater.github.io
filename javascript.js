@@ -485,7 +485,8 @@ function showSlides(n) {
 if ( $(window).width() < 739) {      
   $('.text').hide();
   $('.mobile-text').removeClass('hide');
-  $('.background-icon').hide();
+  $('.background-icon').addClass('hide');
+  $('#bubbles, #bubbles2, #bubbles3').removeClass('hide')
 
   $( "#image1, #image2, #image3, #image4, #image5, #image6" ).click(function() {
   $('.mobile-text').toggleClass('hide');
@@ -501,6 +502,30 @@ pause2();
 pause3();
 pause4();
 pause5();
+});
+
+$( "#bubbles" ).click(function() {
+	pop();
+	$('#bubbles').fadeOut(100);
+	 $('#pop.background-icon.hide').fadeIn(200);
+ $('#pop.background-icon.hide').removeClass('hide');
+ $('#pop').fadeOut(100);
+});
+
+$( "#bubbles2" ).click(function() {
+	pop();
+	$('#bubbles2').fadeOut(100);
+	 $('#pop2.background-icon.hide').fadeIn(200);
+ $('#pop2.background-icon.hide').removeClass('hide');
+ $('#pop2').fadeOut(100);
+});
+
+$( "#bubbles3" ).click(function() {
+	pop();
+	$('#bubbles3').fadeOut(100);
+	 $('#pop3.background-icon.hide').fadeIn(200);
+ $('#pop3.background-icon.hide').removeClass('hide');
+ $('#pop3').fadeOut(100);
 });
 
 } 
