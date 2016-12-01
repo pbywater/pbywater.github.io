@@ -33,10 +33,7 @@ $(window).scroll(function() {
 
 });
 
-// $(document).click(function() {
-// 	$('#image1, #image2, #image3, #image4, #image5, #image6').removeClass('enlarge, enlarge2, enlarge3, enlarge4, enlarge5, enlarge6')
 
-// });
 
 //Enlarge on click and scroll to top
 
@@ -66,32 +63,7 @@ $( "#image1" ).click(function () {
  img1();
 });
 
-// $('.arrow-right').click(function() {
-// if($('#image1').hasClass('enlarge')) {
-//            console.log('image1 is active');
-// 	$('#image1').fadeOut();
-// $('#image2').addClass('enlarge2');
-// $('#image2').fadeIn();
-// }
-// else if($('#image2').hasClass('enlarge2')) {
-//            console.log('image2 is active');
-// 	$('#image2').fadeOut();
-// $('#image3').addClass('enlarge3');
-// $('#image3').fadeIn();
-// }
-// });
 
-// .next
-
-// .jquery.each
-
-// var image1 = document.getElementById("#image1");
-// var image2 = document.getElementById("#image2");
-// var arrowRight = document.getElementById(".arrow-right");
-
-// arrowRight.onclick=function(){
-// 	image1
-// };
  
 function img2() {
   $('.header').toggleClass('hide');
@@ -442,39 +414,35 @@ function showSlides(n) {
   if (n > slides.length) {slideIndex = 1} 
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      // slides[i].style.display = "none"; 
-      // console.log('iteration');
-      // console.log(slides[i]);
-  // }
-  
+
   if (slideIndex-1 == 0 && $('.image').hasClass('enlarge')) {
   	console.log('change to first image');
   	img1Slide();
-  	 $('#wavesBig, #raindrops, #dropsil, #water, #waves, #drop, #drop2').addClass('hide');
+  	 $('#wavesbig, #raindrops, #dropsil, #water, #waves, #drop, #drop2').addClass('hide');
   }
 
    if (slideIndex-1 == 1) {
   	console.log('second image');
   	img2Slide();
-  	 $('#wavesBig, #raindrops, #dropsil, #water, #waves, #drop, #drop2').addClass('hide');
+  	 $('#wavesbig, #raindrops, #dropsil, #water, #waves, #drop, #drop2').addClass('hide');
   }
 
     else if (slideIndex-1 == 2) {
   	console.log('third image');
   	img3Slide();
-  	 $('#wavesBig, #raindrops, #dropsil, #water, #waves, #drop, #drop2').addClass('hide');
+  	 $('#wavesbig, #raindrops, #dropsil, #water, #waves, #drop, #drop2').addClass('hide');
   }
 
       else if (slideIndex-1 == 3) {
   	console.log('fourth image');
   	img4Slide();
-  	 $('#wavesBig, #raindrops, #dropsil, #water, #waves, #drop, #drop2').addClass('hide');
+  	 $('#wavesbig, #raindrops, #dropsil, #water, #waves, #drop, #drop2').addClass('hide');
   }
 
        else if (slideIndex-1 == 4) {
   	console.log('fifth image');
   	img5Slide();
-  	 $('#wavesBig, #raindrops, #dropsil, #water, #waves, #drop, #drop2').addClass('hide');
+  	 $('#wavesbig, #raindrops, #dropsil, #water, #waves, #drop, #drop2').addClass('hide');
   }
 
      else if (slideIndex-1 == 5) {
@@ -491,7 +459,7 @@ if ( $(window).width() < 739) {
   $('.text').hide();
   $('.mobile-text').removeClass('hide');
   $('.background-icon').addClass('hide');
-  $('#wavesBig, #raindrops, #dropsil, #water, #waves, #drop, #drop2').addClass('hide');
+  $('#wavesbig.background-icon, #raindrops, #dropsil, #water, #drop, #drop2').addClass('hide');
   $('#bubbles, #bubbles2, #bubbles3').removeClass('hide');
   $( "#image1, #image2, #image3, #image4, #image5, #image6" ).click(function() {
   $('.mobile-text').toggleClass('hide');

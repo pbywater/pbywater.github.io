@@ -1,9 +1,4 @@
-/*body {
-background-color:rgb(0,0,0);
-background-image:url(http://www.zingerbugimages.com/backgrounds/white_marble_background_seamless.jpg);
-background-position:top left;
-background-repeat:repeat;background-attachment:fixed;
-}*/
+
 
 * {
 	box-sizing: border-box;
@@ -28,55 +23,7 @@ body {
     src: url('Fonts/Oranienbaum.ttf');
 }
 
-@font-face {
-    font-family: adamas;
-    src: url('Fonts/Adamas-Regular.otf');
-}
 
-@font-face {
-    font-family: ailerons;
-    src: url('Fonts/Ailerons-Typeface.otf');
-}
-
-@font-face {
-    font-family: anders;
-    src: url('Fonts/Anders.ttf');
-}
-
-@font-face {
-    font-family: Azedo-Bold;
-    src: url('Fonts/Azedo-Bold.otf');
-}
-
-@font-face {
-    font-family: Azedo-Light;
-    src: url('Fonts/Azedo-Light.otf');
-}
-
-@font-face {
-    font-family: High Tide Sans-serif;
-    src: url('Fonts/HighTide Sans.otf');
-}
-
-@font-face {
-    font-family: High Tide;
-    src: url('Fonts/HighTide.otf');
-}
-
-@font-face {
-    font-family: Manifesto;
-    src: url('Fonts/MANIFESTO.ttf');
-}
-
-@font-face {
-    font-family: Metropolis;
-    src: url('Fonts/Metropolis 1920.otf');
-}
-
-body {
-font-size: 16px;
-	font-family: oranienbaum;
-}
 
 .header {
 	background-image:url(http://www.zingerbugimages.com/backgrounds/white_marble_background_seamless.jpg);
@@ -128,16 +75,14 @@ margin-bottom: 10%;
 }
 
 #image1 {
-	width: 30%;/*
-	animation: rotate 10s infinite linear;*/
+	width: 30%;
 
 }
 
-#image1 .animation {
-	
-/*	animation: rotate 10s infinite linear;*/
-	
-}
+
+
+
+
 
 @keyframes rotate {
 	 0% {transform: rotate(0deg);}
@@ -151,11 +96,7 @@ margin-bottom: 10%;
 	100% {transform: rotate(360deg);}
 }
 
-@keyframes goMad {
-	 0% {transform: translate(-100px); opacity: 0; border: 6px solid pink; padding:120px; position: fixed; top:35vh;}
-	50% {transform: translate(300px); opacity: 1; border: 13px dashed green; padding:10px; position: fixed; right:35vh; top: 78px;}
-	100% {transform: rotate(720deg); opacity: .5; border: 20px dashed black; padding:10px; position: fixed; bottom:35vh;}
-}
+
 
 
 #image1 {
@@ -175,7 +116,6 @@ display: inline-block;
 	width: 40%;
 	float: right;
 	    margin-top: 1.5%;
-	/*animation: goMad .5s infinite;*/
 }
 
 #image2 img {
