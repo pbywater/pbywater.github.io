@@ -328,6 +328,18 @@ mobSound1();
   $('#image1, #image3, #image4, #image5, #image6').removeClass('enlarge').addClass('hide');
   $('#image2').removeClass('hide').addClass('enlarge');
     $('#pop.background-icon, #pop2.background-icon, #pop3.background-icon').addClass('hide');
+if ( $(window).width() < 739) {      
+  function mobSound2() {
+pause();
+play1();
+pause2();
+pause3();
+pause4();
+pause5();
+  }
+mobSound2();
+}
+
 }
 
       function img3Slide() {
@@ -335,6 +347,17 @@ mobSound1();
   $('#image2, #image1, #image4, #image5, #image6').removeClass('enlarge').addClass('hide');
   $('#image3').removeClass('hide').addClass('enlarge');
     $('#pop.background-icon, #pop2.background-icon, #pop3.background-icon').addClass('hide');
+if ( $(window).width() < 739) {      
+  function mobSound2() {
+pause();
+pause1();
+play2();
+pause3();
+pause4();
+pause5();
+  }
+mobSound2();
+}
 }
 
       function img4Slide() {
@@ -342,6 +365,18 @@ mobSound1();
   $('#image2, #image3, #image1, #image5, #image6').removeClass('enlarge').addClass('hide');
   $('#image4').removeClass('hide').addClass('enlarge');
     $('#pop.background-icon, #pop2.background-icon, #pop3.background-icon').addClass('hide');
+
+if ( $(window).width() < 739) {      
+  function mobSound3() {
+pause();
+pause1();
+pause2();
+play3();
+pause4();
+pause5();
+  }
+mobSound3();
+}
 }
 
       function img5Slide() {
@@ -349,6 +384,17 @@ mobSound1();
   $('#image2, #image3, #image4, #image1, #image6').removeClass('enlarge').addClass('hide');
   $('#image5').removeClass('hide').addClass('enlarge');
     $('#pop.background-icon, #pop2.background-icon, #pop3.background-icon').addClass('hide');
+if ( $(window).width() < 739) {      
+  function mobSound4() {
+pause();
+pause1();
+pause2();
+pause3();
+play4();
+pause5();
+  }
+mobSound4();
+}
 }
 
       function img6Slide() {
@@ -356,6 +402,17 @@ mobSound1();
   $('#image2, #image3, #image4, #image5, #image1').removeClass('enlarge').addClass('hide');
   $('#image6').removeClass('hide').addClass('enlarge');
     $('#pop.background-icon, #pop2.background-icon, #pop3.background-icon').addClass('hide');
+if ( $(window).width() < 739) {      
+  function mobSound5() {
+pause();
+pause1();
+pause2();
+pause3();
+pause4();
+play5();
+  }
+mobSound5();
+}
 }
 
 
